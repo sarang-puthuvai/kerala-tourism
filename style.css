@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body , html{
+    overflow-x: hidden;
+}
+.navbar{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-links li{
+    margin:0 30px ;
+}
+
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(anil-xavier-Tp-kViKErbw-unsplash.jpg);
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: rgba(193, 197, 191, 0.904);
+    text-align:center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+
+.header-content h1{
+    font-size: 15vmin;
+    margin-top: 7vmin;
+    margin-bottom: 7vmin;
+    
+}
+
+.header-content h2{
+    font-size: 8vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgb(23, 228, 16);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+
+}
+
+.title{
+   text-align: center;
+   font-size: 4vmin;
+   color: rgb(15, 41, 190);
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+}
+
+.events .row {
+    margin-top: 50px;
+}
+h4{
+    font-size: 5vmin;
+    color: blue;
+    margin: 20px auto;
+}
+p{
+    color: rgb(228, 36, 36);
+    padding: 0px 40px;
+    font-size: 20px;
+}
+.events .ctn{
+    margin-top: 30px;
+}
+
+.explore{
+    width: 120%;
+    height: 100vh;
+    background-image: url(jaison-thomas-Q_CaGLBa8QM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 50%;
+    padding: 50px;
+    color: rgb(223, 20, 20);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.explore-content h1{
+    font-size: 7vmin;
+    margin: 50px;
+}
+.explore-content p{
+    color: rgb(39, 34, 20);
+    font-size: 30px;
+}
+.explore-content .ctn{
+   margin-top: 40px;  
+}
+
+.kerala .row .col{
+    width: 50%;
+}
+
+.kerala .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-gallery img{
+    width: 250px;
+    margin: 10px;
+}
+.section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dd9999;
+    
+}
+.form-container {
+    background-color: rgb(219, 129, 129);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}
